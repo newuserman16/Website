@@ -3,29 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge" />
-	<meta name="viewport" content="width=devide-width, initial-scale-1.0" />
+	<meta name="viewport" content="width=devide-width, initial-scale=1" />
 	<title>Portofolio</title>
 	<link href="img/logo.ico" rel="icon">
   	<link rel="stylesheet" type="text/css" href="style.css" />
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<script src="https://kit.fonstawesome.com/de8de52639.js" crossorigin="anonymous"></script>
   	<script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-	<nav>
-		<div>
-			<img src="profile.jpg">
-		</div>
-		<div id="menu-icon" class="menu-icon">
-		 	<i class="ph ph-list"></i>
-		</div>
-		<ul id="menu-list" class="hidden">
-			<li>
-				<a href="#">Info</a>
-			</li>
-			<li>
-				<a href="#">Contact</a>
-			</li>
-		</ul>
-	</nav>
+	<div class="home">
+		<nav>
+			<div class="logo">
+				<img src="profile.jpg">
+			</div>
+				<h2>Portofo<span>lio</span></h2>
+			<div id="menu-icon" class="menu-icon">
+			 	<i class="ph ph-list"></i>
+			</div>
+			<ul id="menu-list" class="hidden">
+				<li>
+					<a href="#">Info</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
 		<section>
   		<div class="wrapper">
   			<div class="box">
@@ -45,24 +49,106 @@
   		<div class='container'>
   			<div class="card" data-tilt>
   				<img src="profile.jpg">
-  				<h2>Hi There</h2>
-  				<p><br/>Perkenalkan Nama saya M Pasya Evlin Syahputra<br/>Pelajar SMAN 17 Medan
+  				<h2>Hi <span>There</span></h2>
+  				<p><br/>Perkenalkan Saya Pasya<br/>Pelajar SMAN 17 Medan
   				<br/>Asal kota Medan
   				<br/>Sosial Media ku
   				</p>
   			<div class="link">
-  				<a href="https://www.youtube.com/channel/UChVvN6Zirhb1U17ZlP19m6A"><img src='yt.png'><a/>
-  				<a href="https://instagram.com/psya_1607?igshid=OGQ5ZDc2ODk2ZA=="><img src='ig.png'><a/>
-  			
+  				<a href="https://www.youtube.com/channel/UChVvN6Zirhb1U17ZlP19m6A"><img src="yt.png"></a>
+  				<a href="https://instagram.com/psya_1607?igshid=OGQ5ZDc2ODk2ZA=="><img src="ig.png"></a>
+  			</div>
   			<div class="button">	
-  				<a href="https://wa.me/6289621572214" style="--clr:#1e9bff"><span>Hub Saya di Wa</span><i></i></a>
+  				<a href="https://wa.me/6289621572214" style="--clr:#1e9bff"><span>Contact Me at Whatsapp</span><i></i></a>
   				  	<script src="script/vanilla-tilt.babel.js"></script>
-  			<div class="text">  
-  			<p>
-  				<h2>!!</h2>
-  			</p>	
   		</section>
-  		</div>
-  		  	<script src="script.js"></script>
+
+  		<section class="about">
+  			<div class="about-me" data-aos="zoom-in">
+  				<img src="profile.jpg">
+  				<div class="about-txt">
+	  				<h2>About <span>Me</span></h2>
+	  				<p>
+	  					<br>Nama Lengkap: Mohamad Pasya Evlin Syahputra
+	  					<br/>Sekolah: SMAN 17 Medan
+	  					<br/>Kelas: 11 (2 SMA)
+	  					<br/>Alamat: Jl Bunga Turi 2, Kel.Sidomulyo<br/>
+	  					<span>Menjual kebutuhan Bot Wa, Minat chat wa di bawah</span>
+	  				</p>
+	  			<a href="https://wa.me/6289621572214" class="buttons">Contact Me On WhatsApp</a>
+  				</div>
+  			</div>
+  		</section>
+
+  		<section class="sekul">
+  			<div class="history">
+  				<h2>History <span>Pendidikan</span></h2>
+  			</div>
+  			<div class="kotak">
+  				<div class="kartu">
+  					<i class="ph ph-house-line"></i>
+  					<h5>Sekolah Dasar</h5>
+  					<div class="hayu">
+  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
+  					<p style="text-align: center;">
+  						<a href="#">Read More</a>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="kotak">
+  				<div class="kartu">
+  					<i class="ph ph-house-line"></i>
+  					<h5>Sekolah Dasar</h5>
+  					<div class="hayu">
+  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
+  					<p style="text-align: center;">
+  						<a href="#">Read More</a>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="kotak">
+  				<div class="kartu">
+  					<i class="ph ph-house-line"></i>
+  					<h5>Sekolah Dasar</h5>
+  					<div class="hayu">
+  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
+  					<p style="text-align: center;">
+  						<a href="#">Read More</a>
+  					</div>
+  				</div>
+  			</div>
+  		</section>
+  		<section class="copyrigth">
+  			<div class="contact-txt">
+  				<h2>Contact <span>Me</span></h2>
+  				<div class="contact">
+		  			<div class="contacts">
+		  				<h4>Alamat</h4>
+		  				<p>Jl.Bunga turi 2, Medan Tuntungan</p>
+		  			</div>
+		  			<div class="contacts">
+		  				<h4>Email</h4>
+		  				<p>pasyaevlin16@gmail.com</p>
+		  			</div>
+		  			<div class="contacts">
+		  				<h4>Telepon</h4>
+		  				<p>+62-896-2157-2214</p>
+		  			</div>
+		  			<div class="contacts">
+		  				<h4>Instagram</h4>
+		  				<p>instagram Pribadi:@pasya_1607
+		  				instagram Kelas: @inpose_smantulas</p>
+		  			</div>
+		  		</div>
+		  		<div class="cp">
+		  			<h2>@Psya1607</h2>
+		  		</div>
+  			</div>
+  		</section>
+  		<script src="script.js"></script>
+  		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  		<script>
+		  	AOS.init();
+		</script>
 	</body>
 </html>
