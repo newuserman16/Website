@@ -8,29 +8,33 @@
 	<link href="img/logo.ico" rel="icon">
   	<link rel="stylesheet" type="text/css" href="style.css" />
   	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<!---FONT----->
+  	<link rel="preconnect" href="https://fonts.google">
   	<script src="https://kit.fonstawesome.com/de8de52639.js" crossorigin="anonymous"></script>
   	<script src="https://unpkg.com/@phosphor-icons/web"></script>
+  	
 </head>
-<body>
+<header>
 	<div class="home">
 		<nav>
 			<div class="logo">
 				<img src="profile.jpg">
 			</div>
 				<h2>Portofo<span>lio</span></h2>
+			<ul id="menu-list" class="">
+				<li><a href="#">Info</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
 			<div id="menu-icon" class="menu-icon">
 			 	<i class="ph ph-list"></i>
 			</div>
-			<ul id="menu-list" class="hidden">
-				<li>
-					<a href="#">Info</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
-				</li>
-			</ul>
 		</nav>
-		<section>
+	</div>
+</header>
+<body>
+	
+		<section class="containers">
   		<div class="wrapper">
   			<div class="box">
   				<div></div>
@@ -75,48 +79,50 @@
 	  					<br/>Alamat: Jl Bunga Turi 2, Kel.Sidomulyo<br/>
 	  					<span>Menjual kebutuhan Bot Wa, Minat chat wa di bawah</span>
 	  				</p>
-	  			<a href="https://wa.me/6289621572214" class="buttons">Contact Me On WhatsApp</a>
+	  			<a href="https://wa.me/6289621572214" class="buttons">Contact Whatsapp</a>
   				</div>
   			</div>
   		</section>
 
   		<section class="sekul">
-  			<div class="history">
-  				<h2>History <span>Pendidikan</span></h2>
-  			</div>
-  			<div class="kotak">
-  				<div class="kartu">
-  					<i class="ph ph-house-line"></i>
-  					<h5>Sekolah Dasar</h5>
-  					<div class="hayu">
-  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
-  					<p style="text-align: center;">
-  						<a href="#">Read More</a>
-  					</div>
-  				</div>
-  			</div>
-  			<div class="kotak">
-  				<div class="kartu">
-  					<i class="ph ph-house-line"></i>
-  					<h5>Sekolah Dasar</h5>
-  					<div class="hayu">
-  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
-  					<p style="text-align: center;">
-  						<a href="#">Read More</a>
-  					</div>
-  				</div>
-  			</div>
-  			<div class="kotak">
-  				<div class="kartu">
-  					<i class="ph ph-house-line"></i>
-  					<h5>Sekolah Dasar</h5>
-  					<div class="hayu">
-  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
-  					<p style="text-align: center;">
-  						<a href="#">Read More</a>
-  					</div>
-  				</div>
-  			</div>
+	  			<div class="history">
+	  				<h2>History <span>Pendidikan</span></h2>
+	  			</div>
+	  			<div class="listnya">
+		  			<div class="kotak" data-aos="zoom-in">
+		  				<div class="kartu">
+		  					<i class="ph ph-house-line"></i>
+		  					<h5>Sekolah Dasar</h5>
+		  					<div class="hayu">
+		  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
+		  					<p style="text-align: center;"></p>
+		  						<a href="#">Read More</a>
+		  					</div>
+		  				</div>
+		  			</div>
+		  			<div class="kotak" data-aos="zoom-in">
+		  				<div class="kartu">
+		  					<i class="ph ph-house-line"></i>
+		  					<h5>Sekolah Dasar</h5>
+		  					<div class="hayu">
+		  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
+		  					<p style="text-align: center;"></p>
+		  						<a href="#">Read More</a>
+		  					</div>
+		  				</div>
+		  			</div>
+		  			<div class="kotak" data-aos="zoom-in">
+		  				<div class="kartu">
+		  					<i class="ph ph-house-line"></i>
+		  					<h5>Sekolah Dasar</h5>
+		  					<div class="hayu">
+		  					<p>Saya pernah duduk di bangku SDN 065015 Kemenangan Tani MEDAN</p>
+		  					<p style="text-align: center;"></p>
+		  						<a href="#">Read More</a>
+		  					</div>
+		  				</div>
+		  			</div>
+		  		</div>
   		</section>
   		<section class="copyrigth">
   			<div class="contact-txt">
@@ -150,5 +156,8 @@
   		<script>
 		  	AOS.init();
 		</script>
+		<audio autoplay>
+  		<audio source="playing.mp3" type="mp3/mpeg">
+  	</audio>
 	</body>
 </html>
